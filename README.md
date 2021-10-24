@@ -3,9 +3,9 @@
 
 ### Starter kit and template for a simple Webex Teams bot
 
-*For a more detailed walkthorugh, see the companion blog post here: https://developer.webex.com/blog/from-zero-to-webex-teams-chatbot-in-15-minutes*
+*For a more detailed walkthorugh, see https://docs.google.com/presentation/d/1EUUTBeFxA2Es3tPAq8nvDB3--1dwTAHl0kfloN1w_4A/edit#slide=id.gf65195b118_0_34*
 
-git![What we're making](./images/missing-avatar.jpeg)
+![What we're making](./images/missing-avatar.jpeg)
 
 EN. 
 How to facilitate access to health services such as general medicine and mental health for adolescents coming of age, teleworkers and digital nomads by reducing waiting times for care?
@@ -19,7 +19,7 @@ Implementar un modelo de IA el cual permitirá, en primera instancia, a los nóm
 
 Here is the bot in action:
 
-git![What we're making](./images/webexbotstarter.gif)
+![What we're making](./images/webexbotstarter.gif)
 
 EN
 In the future, Shaie will be supported on Webex and other platforms such as Discord, Telegram and Whatsapp to respond quickly to user needs and with the integration of TCS Cubo's Latent Insig API, it will identify user behavior patterns, generating information on trends, allowing constant improvement of the service.
@@ -29,15 +29,3 @@ ES
 A futuro, Shaie se encontrará soportada en Webex y otras plataformas para dar respuesta rápida a las necesidades del usuario y con la integración de la API Latent Insig de TCS Cubo identificará los patrones de conducta de los usuarios, generando información sobre tendencias, permitiendo mejorar constantemente el servicio.
 
 Shaie le brinda la oportunidad a los jóvenes, teletrabajadores y nómadas digitales a acceder a servicios médicos generales y de salud mental sin requerir afiliación directa al sistema de salud, garantizando su atención médica, en cualquier país perteneciente a la red BBVA iberoamérica.
-
-
-
-
-
-
-
-5. Turn on your bot server with ```npm start```
-
-6. Create a space in Webex Teams
-
-7. Add the bot (by its username) to the space in Webex Teams
