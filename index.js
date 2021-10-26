@@ -31,7 +31,7 @@ framework.on('spawn', (bot, id, actorId) => {
     // Lets find out more about them..
     var msg = 'You can say `help` to get the list of words I am able to respond to.';
     bot.webex.people.get(actorId).then((user) => {
-      msg = `Hello there ${user.displayName}. ${msg}`; 
+      msg = `Hola bienvenido, soy SHAIE, estoy aquí para ayudarte ${user.displayName}. ${msg}`; 
     }).catch((e) => {
       console.error(`Failed to lookup user details in framwork.on("spawn"): ${e.message}`);
       msg = `Hello there. ${msg}`;  
@@ -39,12 +39,18 @@ framework.on('spawn', (bot, id, actorId) => {
       // Say hello, and tell users what you do!
       if (bot.isDirect) {
         bot.say('markdown', msg);
-      } else {
+                        }
+       
+                        else {
         let botName = bot.person.displayName;
         msg += `\n\nDon't forget, in order for me to see your messages in this group space, be sure to *@mention* ${botName}.`;
         bot.say('markdown', msg);
       }
+  
+  
     });
+ 
+ 
   }
 });
 
@@ -207,7 +213,7 @@ framework.hears(/.*/, function (bot, trigger) {
   // This will fire for any input so only respond if we haven't already
   if (!responded) {
     console.log(`catch-all handler fired for user input: ${trigger.text}`);
-    bot.say(`Sorry, I don't know how to respond to "${trigger.text}"`)
+    bot.say(` Lo lamento no tengo respuesta a eso, le voy a decir a mi creador que se ponga a trabajar "${trigger.text}"`)
       .then(() => sendHelp(bot))
       .catch((e) => console.error(`Problem in the unexepected command hander: ${e.message}`));
   }

@@ -1,5 +1,5 @@
 {
-  "name": "Webex-Bot-Starter",
+  "name": "SHAIO",
   "version": "1.0.0",
   "description": "Starter template for creating a Webex Teams bot",
   "main": "index.js",
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tbd/webexbotstarter.git"
+    "url": "https://github.com/jfelpedraza/SHAIE.git"
   },
   "keywords": [
-    "Cisco",
-    "Webex",
-    "webex-bot-framework"
+    "SHAIE",
+    "AI",
+    "Health"
   ],
-  "author": "Phil Bellanti",
-  "license": "ISC",
+  "author": "Juan Felipe Pedraza",
+  "license": "CC",
   "bugs": {
-    "url": "https://github.com/tbd/webexbotstarter/issues"
+    "url": "https://github.com/jfelpedraza/SHAIE.git"
   },
-  "homepage": "https://github.com/tbd/webexbotstarter#readme",
+  "homepage": "https://github.com/jfelpedraza/SHAIE/blob/master/README.md",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
