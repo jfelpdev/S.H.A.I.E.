@@ -5,7 +5,7 @@
 
 *For a more detailed walkthorugh, see https://docs.google.com/presentation/d/1EUUTBeFxA2Es3tPAq8nvDB3--1dwTAHl0kfloN1w_4A/edit#slide=id.gf65195b118_0_34*
 
-![What we're making](./images/missing-avatar.jpeg)
+![What we're making](./images/S.H.A.I.E.png)
 
 EN | 
 How to facilitate access to health services such as general medicine and mental health for adolescents coming of age, teleworkers and digital nomads by reducing waiting times for care?
@@ -19,7 +19,7 @@ Implementar un modelo de IA el cual permitirá, en primera instancia, a los nóm
 
 Here is the bot in action:
 
-![What we're making](./images/webexbotstarter.gif)
+![What we're making](./images/S.H.A.I.E.gif)
 
 EN |
 In the future, Shaie will be supported on Webex and other platforms such as Discord, Telegram and Whatsapp to respond quickly to user needs and with the integration of TCS Cubo's Latent Insig API, it will identify user behavior patterns, generating information on trends, allowing constant improvement of the service.
