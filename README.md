@@ -3,8 +3,6 @@
 
 ### Starter kit and template for a simple Webex Teams bot
 
-*For a more detailed walkthorugh, see https://docs.google.com/presentation/d/1EUUTBeFxA2Es3tPAq8nvDB3--1dwTAHl0kfloN1w_4A/edit#slide=id.gf65195b118_0_34*
-
 ![What we're making](./images/S.H.A.I.E.png)
 
 EN | 
